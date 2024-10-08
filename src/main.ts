@@ -96,7 +96,7 @@ const draw = (normalizedData: number[]): void => {
  */
 const drawLineSegment = (ctx: CanvasRenderingContext2D, x: number, height: number, width: number, isEven: boolean) => {
     ctx.lineWidth = 1; // how thick the line is
-    ctx.strokeStyle = "#fff"; // what color our line is
+    ctx.strokeStyle = "hsl(322, 59%, 65%)"; // what color our line is
     ctx.beginPath();
     height = isEven ? height : -height;
     ctx.moveTo(x, 0);

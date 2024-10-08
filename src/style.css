@@ -1,18 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap");
+
 html {
     height: 100%;
 }
 
 body {
-    background: #282831;
+    background: hsl(322, 100%, 99%);
     display: grid;
+    font-family: "Lora";
+    color: hsl(322, 59%, 65%);
     place-content: center;
     justify-items: center;
     min-height: 100%;
     margin: 0;
 }
 
+p {
+    inline-size: min(100% - 2rem, 45ch);
+    margin-inline: auto;
+    text-wrap: balance;
+    text-align: center;
+    font-size: clamp(1.25rem, 5vw, 1.75rem);
+}
+
+button {
+    background-color: hsl(322, 59%, 65%);
+    border: none;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1.5em;
+    font-size: 1.25rem;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
 canvas {
-    width: 800px;
+    width: min(100% - 2rem, 800px);
     height: 130px;
     margin: 2rem auto;
 }
