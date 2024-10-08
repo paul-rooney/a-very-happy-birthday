@@ -108,7 +108,7 @@ const drawLineSegment = (ctx: CanvasRenderingContext2D, x: number, height: numbe
 
 (() => {
     document.querySelector("audio")?.addEventListener("play", () => {
-        drawAudio("/audio.m4a");
+        drawAudio(audio);
     });
 })();
 
