@@ -1,6 +1,7 @@
 import "./style.css";
-// import typescriptLogo from './typescript.svg'
-// import viteLogo from '/vite.svg'
+// import typescriptLogo from "./typescript.svg";
+// import viteLogo from "/vite.svg";
+import audio from "./assets/audio.m4a";
 
 // Set up audio context
 const audioContext = new AudioContext();
