@@ -8,8 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-# Allow pushing to GitHub for publication on GitHub Pages
-# dist
+dist
 dist-ssr
 *.local
 
